@@ -49,3 +49,29 @@
 #language-menu button:hover {
     background-color: #c9c9c9;
 }
+
+@media (max-width: 600px) {
+    .language-container {
+        position: static;
+        transform: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #language-btn {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #language-menu {
+        position: static;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #language-menu button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
