@@ -7,7 +7,7 @@ body {
   height: 100vh;
   background-image: url('../assets/images/background-image.jpg');
   background-color: #2c2c2c;
-  background-size: contain;
+  background-size: cover; /* Изменено на cover для лучшего отображения */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -134,14 +134,19 @@ button:focus {
   font-size: 18px;
 }
 
+/* Адаптация для мобильных устройств */
 @media (max-width: 768px) {
   .header {
     font-size: 28px;
     margin-bottom: 30px;
   }
 
+  .outer-square {
+    padding: 5px;
+  }
+
   .grid-container {
-    grid-template-columns: repeat(4, 40px);
+    grid-template-columns: repeat(5, 40px);
     grid-gap: 8px;
   }
 
@@ -178,8 +183,12 @@ button:focus {
     margin-bottom: 20px;
   }
 
+  .outer-square {
+    padding: 5px;
+  }
+
   .grid-container {
-    grid-template-columns: repeat(3, 30px);
+    grid-template-columns: repeat(5, 30px);
     grid-gap: 6px;
   }
 
