@@ -146,7 +146,7 @@ button:focus {
   }
 
   .grid-container {
-    grid-template-columns: repeat(5, 40px);
+    grid-template-columns: repeat(5, 50px);
     grid-gap: 8px;
   }
 
@@ -188,7 +188,7 @@ button:focus {
   }
 
   .grid-container {
-    grid-template-columns: repeat(5, 30px);
+    grid-template-columns: repeat(5, 45px);
     grid-gap: 6px;
   }
 
